@@ -1,0 +1,17 @@
+img{
+    width: 70px;
+    height: 70px;
+}
+
+body{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+html{
+    height: 600px;
+    width: 450px;
+    background-color: #A395FF;
+}

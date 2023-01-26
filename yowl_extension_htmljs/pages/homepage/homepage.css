@@ -1,0 +1,378 @@
+/* Beginning on the main CSS bloc */
+
+html{
+    height: 600px;
+    width: 450px;
+
+}
+
+#myprofilelink{
+    text-decoration-line: underline;
+
+    color: #ACACAC;
+    font-size: 12px;
+}
+
+.profileicon, #logo{
+    width: 60px;
+    height: 60px;
+}
+
+.profileicon{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#leftpart{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+}
+
+#leftpartbloc{
+    display: flex;
+    flex-direction: column;
+}
+
+#topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin : 15px 5px 5px 5px;
+    box-shadow: 0 0 15px gray;
+    border-radius: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    padding-left: 5px;
+    justify-content: center;
+
+}
+
+/*End of the main CSS bloc*/
+
+#websitebar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7D6BF2;
+    margin: 10px 5px 5px 5px ;
+    border-radius: 20px;
+    padding-right: 2%;
+    padding-left: 2%;
+    color: white;
+}
+
+#postcommentbutton{
+    background-color: #9688F7;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 20px;
+}
+
+#commentsbloc{
+    margin:  0px 10px 10px 10px;
+}
+
+#commentsbloc > p{
+    font-size: 22px; 
+    color: #4218D9
+}
+
+/*Start of style for comment*/
+.profilcommentpicture{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.topbarcomment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.maincomment{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 2%;
+    border-radius: 20px;
+    box-shadow: 0 0 15px gray;
+
+}
+
+.commenttitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(66, 24, 217, 0.86);
+}
+
+.datename{
+    display: flex;
+    flex-direction: column;
+}
+
+.date{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 14px;
+    color: #ACACAC;
+    margin: 0px;
+}
+
+.descriptionpara{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    /* or 113% */
+
+    text-align: justify;
+
+    color: #4D25DA;
+}
+
+.rating{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 14px;
+    color: #A395FF;
+}
+
+.authorname{
+    color: #4218D9;
+    font-size: 18px;
+}
+
+.websitepara{
+    font-size: 16px;
+    /*line-height: 14px;*/
+
+    text-align: right;
+    text-decoration-line: underline;
+    color: #4D25DA;
+}
+
+.pictureandnamebloc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+#seemorebutton{
+    text-align: center;
+    background-color: #7D6BF2;
+    padding: 2%;
+    box-shadow: 0px 20px 20px rgba(66, 24, 217, 0.2);
+    border-radius: 15px;
+    width: 200px;
+    justify-content: center;
+    margin: 10px auto;
+    color: white;
+}
+
+/*End of style for the comment*/
+
+.topcommentbloc{
+    background-color: rgba(66, 24, 217, 0.86);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: 170px;
+    margin-bottom: 15px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftpanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+}
+
+.ranking{
+    display: flex;
+
+}
+
+.starcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: left;
+}
+
+.fa-star{
+    color: #A395FF;
+    opacity: 0.5;
+}
+
+.checked{
+    color: #A395FF;
+    opacity: 1;
+}
+
+.postcommentdiv{
+    background: #E4E0FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px 40px 40px 40px;
+    width: 225px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.postcommentpara{
+    border: 1px solid #7D6BF2;
+    border-radius: 10px;
+    text-align: center;
+    color: #7D6BF2;
+    width: 195px;
+}
+
+.likespara{
+    color: #7D6BF2;
+}
+
+.fa-magnifying-glass{
+    background: #7D6BF2;
+}
+
+.gg-search{
+    color: #7D6BF2;
+}
+
+#searchinput{
+    border: 2px solid #7D6BF2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    padding : 1%;
+    flex-grow: 2;
+    margin-left: 10px;
+}
+
+#searchbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+/* CSS for the burger menu */
+/* Sidenav menu */
+.sidenav {
+    height: 60%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 21px;
+    left: -300px;
+    /*padding-top: 60px;*/
+    transition: left 0.5s ease;
+    border-radius: 10px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 15px;
+    padding-top: 30%;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    font-size: 20px;
+    color: #ACACAC;
+}
+
+.sidenav a:hover {
+    color: #111;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+    left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+.myprofilelink{
+    text-decoration-line: underline;
+
+    color: #ACACAC;
+    font-size: 12px;
+}
+
+#flexburgermenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+#nameandprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

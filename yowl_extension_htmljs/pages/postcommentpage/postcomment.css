@@ -1,0 +1,372 @@
+html{
+    height: 600px;
+    width: 450px;
+}
+
+.profileicon, #logo{
+    width: 60px;
+    height: 60px;
+}
+
+#leftpart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#myprofilelink{
+    text-decoration-line: underline;
+
+    color: #ACACAC;
+    font-size: 12px;
+}
+
+#leftpartbloc{
+    display: flex;
+    flex-direction: column;
+}
+
+#topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin : 15px 5px 5px 5px;
+    box-shadow: 0 0 15px gray;
+    border-radius: 10px;
+}
+
+
+.profileicon{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin : 15px 5px 5px 5px;
+    box-shadow: 0 0 15px gray;
+    border-radius: 10px;
+}
+
+/*End of global CSS part*/
+
+#actualwebsiteurl{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 70% */
+    text-align: center;
+
+    color: #4218D9;
+}
+
+#averagenotation{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 14px;
+    color: #7D6BF2;
+    text-align: center;
+}
+
+#addcomment{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 30px;
+
+    color: #4218D9;
+}
+
+#addcommentbloc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding : 3%;
+    margin: 0px 30px 0 30px;
+    background-color: #E4E0FF;
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+}
+
+#avatarimage{
+    box-shadow: 0px 30px 20px 4px rgba(114, 136, 147, 0.2);
+    border-radius: 60px;
+    height: 46px;
+    width: 46px;
+}
+
+#pictureandinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+
+}
+
+input{
+    all: unset;
+}
+
+input{
+    margin-left: 20px;
+}
+
+#postcommentdiv{
+    background: #4218D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 40px 40px;
+    width: 225px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#postcommentpara{
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    width: 195px;
+}
+
+#lastcommentspara{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #4218D9;
+    margin-left: 50px;
+}
+
+/*Start of the style for the last comment bloc */
+.lastcomment{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px ;
+    margin: 30px;
+    width: initial;
+    background-color: #F5F5F5;
+    box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.userprofilpicture{
+    box-shadow: 0px 30px 20px 4px rgba(114, 136, 147, 0.2);
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.nameanddate{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+}
+
+.authorname{
+    font-weight: 400;
+    font-size: 15px;
+
+    /* identical to box height */
+
+
+    color: #4218D9;
+}
+
+.publicationtime{
+    font-weight: 400;
+    font-size: 12px;
+    color: #979797;
+}
+
+.commenttextchild{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 17px;
+    /* or 113% */
+
+
+    color: #4218D9;
+}
+
+.commenttext{
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+/*End of last comment bloc*/
+
+#alllastcomments{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.ranking{
+    display: flex;
+
+}
+
+.starcontainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: left;
+}
+
+.fa-star{
+    color: #A395FF;
+    opacity: 0.5;
+}
+
+.checked{
+    color: #A395FF;
+    opacity: 1;
+}
+
+#averagebloc{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#starselector{
+    display: flex;
+    flex-direction: row;
+}
+
+#starselector > p{
+    color: #4D25DA;
+    font-size: 18px
+}
+
+.starbutton{
+    all: unset;
+}
+
+.one .two .three .four .five{
+    color: #A395FF;
+}
+
+.replybutton{
+    border: 0.5px solid #4218D9;
+    color: #4218D9;
+    padding : 0.5%;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    margin-left: 200px;
+}
+
+
+/* CSS for the burger menu */
+/* Sidenav menu */
+.sidenav {
+    height: 60%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 21px;
+    left: -300px;
+    /*padding-top: 60px;*/
+    transition: left 0.5s ease;
+    border-radius: 10px;
+    background: #F5F5F5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 15px;
+    padding-top: 30%;
+}
+
+/* Sidenav menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    font-size: 20px;
+    color: #ACACAC;
+}
+
+.sidenav a:hover {
+    color: #111;
+}
+
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Active class */
+.sidenav.active {
+    left: 0;
+}
+
+/* Close btn */
+.sidenav .close {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    font-size: 36px;
+}
+
+/* Icône burger */
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+.myprofilelink{
+    text-decoration-line: underline;
+
+    color: #ACACAC;
+    font-size: 12px;
+}
+
+#flexburgermenu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+#nameandprofile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

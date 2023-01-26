@@ -1,0 +1,98 @@
+html{
+    height: 600px;
+    width: 450px;
+    margin-right: 20px;
+    margin-left : 10px;
+    background-color: #A395FF;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+}
+
+body{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.signinbloc{
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    margin : 10px;
+    border-radius: 10px;
+    color: #4218D9;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    color: white;
+    font-size: 30px;
+}
+
+.inputdefault{
+   width: 350px;
+   height: 30px;
+   border-radius: 10px;
+   outline: none;
+   appearance: none;
+   border: 0;
+   padding: 1%;
+   padding-left: 5px;
+}
+
+.registerdefault{
+   height: 30px;
+   border-radius: 10px;
+   outline: none;
+   appearance: none;
+   border: 0;
+   padding: 1%;
+   padding-left: 5px;
+   flex-grow: 1;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+#continuepara{
+    padding: 10px;
+    background-color:#4218D9;
+    color: white;
+    height: auto;
+    width: 150px;
+    margin-top: 5%;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #4218D933;
+}
+
+#signuplink{
+    color: white;
+}
+
+#signuplink > a {
+    color: white;
+}
+
+.doublesidebloc{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    justify-content: space-between;
+}
+
+
+
+/* commentaire */ 
